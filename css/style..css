@@ -15,7 +15,10 @@ body{
     height: 80px;
 }
 .carousel-inner,.carousel-inner img{
-    height: 300px;
-    object-fit: none;
+    height: 500px;
+    object-fit: cover;
     width: 100%;
+}
+.card img{
+    height: 180px;
 }
