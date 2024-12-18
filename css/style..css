@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid transparent;
 }
 body{
     line-height: 1.5;
@@ -22,3 +22,31 @@ body{
 .card img{
     height: 180px;
 }
+.navbar{
+    z-index: 99;
+}
+iframe{
+    width: 600px;
+    height: 450px;
+}
+/* responsiviteti/media screen */
+/* max, min,min-max */
+/* max */
+@media screen and (max-width:992px) {
+    
+}
+@media screen and (max-width:600px){
+    iframe{
+        width: 100%;
+    }
+    .navbar-brand img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*min -max  */
+@media screen and (max-width:320px) {}
+@media screen and (min-width:321px) and (max-width:320px) {}
+@media screen and (min-width:575px) and (max-width:992px) {}
+@media screen and (min-width:993px) {}
